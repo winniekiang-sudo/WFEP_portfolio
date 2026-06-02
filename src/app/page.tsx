@@ -66,7 +66,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="border-y border-border bg-surface-elevated px-6 py-20 md:py-28">
+      <section className="border-y border-border px-6 py-20 md:py-28">
         <div className="mx-auto max-w-6xl">
           <SectionHeading
             eyebrow="Services"
@@ -77,15 +77,15 @@ export default function HomePage() {
             {services.map((service, i) => (
               <li
                 key={service.title}
-                className="rounded-2xl border border-border bg-surface p-8"
+                className="rounded-2xl border border-border bg-surface-elevated p-8"
               >
-                <span className="font-display text-sm font-semibold text-accent">
+                <span className="font-display text-sm font-semibold text-ink">
                   0{i + 1}
                 </span>
                 <h3 className="mt-4 font-display text-xl font-semibold text-ink">
                   {service.title}
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-ink-muted">
+                <p className="mt-3 text-sm leading-relaxed text-ink">
                   {service.description}
                 </p>
               </li>
@@ -95,15 +95,15 @@ export default function HomePage() {
       </section>
 
       <section className="px-6 py-20 md:py-28">
-        <div className="mx-auto max-w-6xl rounded-3xl bg-ink px-8 py-14 text-surface md:px-14 md:py-20">
+        <div className="mx-auto max-w-6xl rounded-3xl bg-ink px-8 py-14 text-white md:px-14 md:py-20">
           <div className="max-w-2xl">
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-surface/60">
+            <p className="text-xs font-medium uppercase tracking-[0.2em] text-white">
               Collaboration
             </p>
-            <h2 className="mt-4 font-display text-3xl font-semibold tracking-tight md:text-4xl">
+            <h2 className="mt-4 font-display text-3xl font-semibold tracking-tight text-white md:text-4xl">
               Have a product challenge worth solving?
             </h2>
-            <p className="mt-4 text-lg leading-relaxed text-surface/75">
+            <p className="mt-4 text-lg leading-relaxed text-white">
               Tell me about your team, timeline, and users. I typically reply within
               two business days.
             </p>
@@ -111,7 +111,7 @@ export default function HomePage() {
               <Button
                 href="/contact"
                 variant="secondary"
-                className="!bg-surface !text-ink hover:!bg-surface/90"
+                className="!border-white !bg-transparent !text-white hover:!bg-white/10"
               >
                 Start a conversation
               </Button>

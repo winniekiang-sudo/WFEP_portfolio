@@ -10,24 +10,16 @@ export const metadata: Metadata = {
 
 const timeline = [
   {
-    year: "2025 — Present",
-    title: "Independent product designer",
-    detail: "Partnering with startups and scale-ups on 0→1 and redesign initiatives.",
+    year: "2026 — Present",
+    title: "UI/UX designer · Startup company",
+    detail:
+      "Designing user-centred product experiences for a growing startup team.",
   },
   {
-    year: "2021 — 2025",
-    title: "Senior designer · Fintech collective",
-    detail: "Led mobile banking and payments experiences for APAC markets.",
-  },
-  {
-    year: "2018 — 2021",
-    title: "UI/UX designer · Agency studio",
-    detail: "Delivered brand and product work for retail, travel, and SaaS clients.",
-  },
-  {
-    year: "2016",
-    title: "BDes · Communication design",
-    detail: "Foundation in typography, systems thinking, and human-centred methods.",
+    year: "2019 — 2025",
+    title: "Order process specialist · Taiwan gift & premium company",
+    detail:
+      "Managed order workflows and processes for the international market.",
   },
 ];
 
@@ -125,8 +117,8 @@ export default function AboutPage() {
         <div className="mx-auto max-w-6xl rounded-2xl border border-border p-8 md:p-10">
           <h2 className="font-display text-xl font-semibold text-ink">Toolbox</h2>
           <p className="mt-4 text-ink-muted">
-            Figma · FigJam · Principle · Maze · Notion · Linear · HTML/CSS literacy for
-            handoff · WCAG 2.2 awareness
+            Figma · Cursor · GitHub · Vercel · HTML/CSS literacy for
+            handoff
           </p>
         </div>
       </section>
