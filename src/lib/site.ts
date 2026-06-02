@@ -3,7 +3,6 @@ export const site = {
   title: "Product & UI/UX Designer",
   tagline: "Crafting calm, human-centred digital experiences.",
   email: "winniekiang@gmail.com",
-  email: "winniekiang@gmail.com",
   location: "Hong Kong",
   year: new Date().getFullYear(),
 } as const;
