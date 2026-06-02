@@ -16,7 +16,7 @@ const timeline = [
       "Designing user-centred product experiences for a growing startup team.",
   },
   {
-    year: "2019 — 2025",
+    year: "2019 — 2026",
     title: "Order process specialist · Taiwan gift & premium company",
     detail:
       "Managed order workflows and processes for the international market.",
